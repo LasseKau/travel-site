@@ -250,7 +250,7 @@ html {
 }
 
 .header-image {
-  width: 50%;
+  width: 25%;
   animation: image-float 50s infinite;
 }
 
