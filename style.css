@@ -175,7 +175,7 @@ html {
 }
 
 .heading {
-  font-size: 8rem;
+  font-size: 14rem;
   color: var(--white-color);
 }
 
@@ -251,21 +251,21 @@ html {
 
 .header-image {
   width: 25%;
-  animation: image-float 50s infinite;
+  animation: image-float 100s infinite;
 }
 
 @keyframes image-float {
   0% {
-    transform: translateZ(40rem) translateY(20rem);
+    transform: translateZ(50rem) translateY(20rem);
     opacity: 1;
   }
   50% {
-    transform: translateZ(-2000rem) translateX(-2000rem) translateY(-750rem);
-    opacity: 0.6;
+    transform: translateZ(-1500rem) translateX(-2000rem) translateY(-750rem);
+    opacity: 0.4;
   }
 
   100% {
-    transform: translateZ(-1500rem) translateX(-1250rem) translateY(-250rem);
+    transform: translateZ(50rem) translateY(20rem);
     opacity: 0;
   }
 
