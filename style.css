@@ -175,8 +175,9 @@ html {
 }
 
 .heading {
-  font-size: 14rem;
+  font-size: 8rem;
   color: var(--white-color);
+  z-index: 200;
 }
 
 .header-paragraph {
